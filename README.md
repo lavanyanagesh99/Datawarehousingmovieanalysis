@@ -13,6 +13,7 @@ Data visualization: Power BI
 
 ## Project Overview
 This project involves extracting IMDb movie data, transforming it, and loading it into a data warehouse to perform analytical queries. The primary goal is to gain insights into movie trends, ratings, and other related analytics.
+![Process Diagram](https://github.com/lavanyanagesh99/Datawarehousingmovieanalysis/assets/145505542/f8905c1f-9604-464a-a964-9a6779864d84)
 
 ## Data Source
 The data was sourced from IMDb (Internet Movie Database), which provides comprehensive details about movies, including titles, genres, ratings, and more.
