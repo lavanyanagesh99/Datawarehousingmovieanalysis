@@ -1,5 +1,5 @@
 # Data warehousing movie analysis
-Hi Professor!
+Hi!
 Welcome to my GitHub repository
 I created and orchestrated a data pipeline to analyze the IMDB movie data in this project.
 
