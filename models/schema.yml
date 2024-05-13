@@ -1,0 +1,21 @@
+
+version: 1
+
+models:
+    - name: movie1
+      description: "Top rated movies per year"
+      columns:
+          - name: movie_name
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+    - name: tvshow1
+      description: "Top rated tvshow per year"
+      columns:
+          - name: movie_name
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null

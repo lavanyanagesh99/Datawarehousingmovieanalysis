@@ -1,0 +1,17 @@
+/*Top rated tv shows per year*/
+select 
+  movie_year,
+  movie_name,
+  movie_rating
+from
+(
+  SELECT 
+    m1.movie_year,
+    m1.movie_name,
+    m1.movie_rating,
+    row_number() over (partition by m1.movie_year order by m1.movie_rating desc) as rank
+  FROM imdb.top_250_tv as m1
+  order by m1.movie_year desc
+) as aaa
+where 
+  aaa.rank = 1
